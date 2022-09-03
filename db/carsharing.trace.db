@@ -1,0 +1,48 @@
+2022-08-25 21:47:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-25 21:47:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-25 22:01:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-25 22:03:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-25 23:45:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-25 23:47:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-25 23:55:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 00:13:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 00:16:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 00:17:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 14:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 14:54:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 14:54:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 14:54:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 14:54:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DROP TABLE CUSTOMER; [42102-200]
+2022-08-26 15:37:12 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT C.NAME, COM.NAME FROM CAR AS C JOIN COMPANY AS COM ON C.ID = COM.ID JOIN CUSTOMER AS CUST ON C.ID = CUST.RENTED_CAR_ID WHERE CUST.RENTED_CAR_ID = ? WHERE[*] C.ID = ?"; SQL statement:
+SELECT c.NAME, com.NAME FROM CAR as c JOIN COMPANY as com ON c.ID = com.ID JOIN CUSTOMER as cust ON c.ID = cust.rented_car_id WHERE cust.rented_car_id = ? WHERE c.id = ? [42000-200]
